@@ -3,5 +3,7 @@ names = ['prince', 'princess', 'king']
 def add_name(name):
     names.append(name)
     print(names)
-new = 'king'
-add_name(new)
+    for x in names:
+        print(x)
+
+add_name('queen')

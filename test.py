@@ -27,3 +27,11 @@
 # for p in doc.paragraphs:
 #     print(p.text)
 
+
+###### creating a new file and writing into it
+f = open("new.txt", "w")
+f.write("Hello this is a new file \n I was just practising my python")
+    
+
+
+

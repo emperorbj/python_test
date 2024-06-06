@@ -14,6 +14,10 @@
 # print(f.read())
 # f.close()
 
+#### appending or writing into a txt file
+f = open("C:\\Users\\USER\\Desktop\\context.txt", "a")
+print(f.read())
+f.close()
 ###### Reading from a docx 
 from docx import Document
 

@@ -29,9 +29,17 @@
 
 
 ###### creating a new file and writing into it
-f = open("new.txt", "w")
-f.write("Hello this is a new file \n I was just practising my python")
-    
+# f = open("new.txt", "w")
+# f.write("Hello this is a new file \n I was just practising my python")
+
+
+#### removing a file
+import os
+
+if os.path.exists("new.txt"):
+    os.remove("new.txt")
+else:
+    print("file does not exist")
 
 
 

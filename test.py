@@ -1,4 +1,4 @@
-# testing python functions 
+###### testing python functions 
 # names = ['prince', 'princess', 'king']
 # def add_name(name):
 #     names.append(name)
@@ -9,9 +9,18 @@
 # add_name('queen')
 
 
-## Reading a text files
+###### Reading a text files
 # f = open("C:\\Users\\USER\\Desktop\\context.txt", "r")
 # print(f.read())
 # f.close()
 
-## Reading from a docx 
+###### Reading from a docx 
+from docx import Document
+
+# Open the .docx file
+doc = Document("C:\\Users\\USER\\Desktop\\Resume.docx")
+
+# Read and print the text content
+for p in doc.paragraphs:
+    print(p.text)
+

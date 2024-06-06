@@ -8,10 +8,10 @@
 
 # add_name('queen')
 
-f = open("test.txt", "r")
-print(f.read())
 
-for x in f:
-    print(x)
-    
-f.close()
+## Reading a text files
+# f = open("C:\\Users\\USER\\Desktop\\context.txt", "r")
+# print(f.read())
+# f.close()
+
+## Reading from a docx 

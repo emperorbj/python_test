@@ -15,16 +15,15 @@
 # f.close()
 
 #### appending or writing into a txt file
-f = open("C:\\Users\\USER\\Desktop\\context.txt", "a")
-print(f.read())
-f.close()
+# f = open("C:\\Users\\USER\\Desktop\\context.txt", "a")
+# f.write("Hello, a new line")
+# f.close()
 ###### Reading from a docx 
-from docx import Document
+# from docx import Document
 
-# Open the .docx file
-doc = Document("C:\\Users\\USER\\Desktop\\Resume.docx")
+# doc = Document("C:\\Users\\USER\\Desktop\\Resume.docx")
 
-# Read and print the text content
-for p in doc.paragraphs:
-    print(p.text)
+# # Read and print the text content
+# for p in doc.paragraphs:
+#     print(p.text)
 
